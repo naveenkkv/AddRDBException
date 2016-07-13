@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54083294905",
+    "firebase_url": "https://addrdbexception.firebaseio.com",
+    "project_id": "addrdbexception",
+    "storage_bucket": "addrdbexception.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54083294905:android:7c4065e1a00c0dc4",
+        "android_client_info": {
+          "package_name": "com.example.naveenkumark.addrdbexception"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54083294905-pa87f8hiisudsgrgh6hmmnfq2s8u371k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naveenkumark.addrdbexception",
+            "certificate_hash": "2FE55C5274FCC62372FA186C26DF81757A44EDB7"
+          }
+        },
+        {
+          "client_id": "54083294905-0q64obq8f5rgiu5r3mk4jq1s6gvl4on8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdUDVWlDFwc26LMsqc5jN2GBhtw6yt_ng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54083294905-0q64obq8f5rgiu5r3mk4jq1s6gvl4on8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
