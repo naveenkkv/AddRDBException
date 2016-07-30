@@ -16,9 +16,11 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserInfo;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -80,9 +82,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void writeDatabase(){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("private");
+        //database.
+        DatabaseReference myRef = database.getReference("ABCD");
+        //myRef.
 
-        myRef.setValue("No World!");
+        //myRef.push()
+        //myRef.child("users").child(mAuth.getCurrentUser().getUid()).setValue("Changed to UID");
+
+        myRef.setValue("Changed to ABCD");
         // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -108,9 +115,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+
                 FirebaseUser user = firebaseAuth.getCurrentUser();
+
+                //user.
                 if (user != null) {
                     // User is signed in
+                    writeDatabase();
+                    UserInfo info;// = user.getProviderData();
+                    //user.getProviderId()
                     Log.d("TAG", "onAuthStateChanged:signed_in:" + user.getUid());
                 } else {
                     // User is signed out

@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "54083294905-jpbb6p813oj81662ttbrd9qp2ug2aenk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naveenkumark.addrdbexception",
+            "certificate_hash": "198B460BFCD3C2C7A16008E4D7456EA4355C4089"
+          }
+        },
+        {
+          "client_id": "54083294905-ful3g5hqqr7a4fr20ivgd3e6tmah6bu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naveenkumark.addrdbexception",
+            "certificate_hash": "817AD0A57BD7B7F869533EF6B09FA16095D278BA"
+          }
+        },
+        {
           "client_id": "54083294905-pa87f8hiisudsgrgh6hmmnfq2s8u371k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
