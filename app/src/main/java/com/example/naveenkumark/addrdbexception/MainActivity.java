@@ -83,13 +83,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void writeDatabase(){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         //database.
-        DatabaseReference myRef = database.getReference("ABCD");
+        DatabaseReference myRef = database.getReference("auth key");
         //myRef.
 
         //myRef.push()
         //myRef.child("users").child(mAuth.getCurrentUser().getUid()).setValue("Changed to UID");
 
-        myRef.setValue("Changed to ABCD");
+        myRef.setValue("Auth value");
         // Read from the database
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
