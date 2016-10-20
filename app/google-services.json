@@ -15,35 +15,43 @@
       },
       "oauth_client": [
         {
-          "client_id": "54083294905-tbu5osq93ictece4rntaucagjii7m0jr.apps.googleusercontent.com",
+          "client_id": "54083294905-se66kun5oqd54e8r5orici77r781tj2o.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.naveenkumark.addrdbexception",
-            "certificate_hash": "D3DA59660A1130A700371C18F8D42FB8EF0AF29B"
+            "certificate_hash": "87531105955FC03D355D7DE5D156E6F2A81B3F8F"
           }
         },
         {
-          "client_id": "54083294905-jpbb6p813oj81662ttbrd9qp2ug2aenk.apps.googleusercontent.com",
+          "client_id": "54083294905-6qbtr2j7cr8bhlvvp5hvf6fbkkh5pplt.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.naveenkumark.addrdbexception",
-            "certificate_hash": "198B460BFCD3C2C7A16008E4D7456EA4355C4089"
+            "certificate_hash": "B1113CDE71F78FCE0EAB000F55E7ED0316773D0E"
           }
         },
         {
-          "client_id": "54083294905-ful3g5hqqr7a4fr20ivgd3e6tmah6bu6.apps.googleusercontent.com",
+          "client_id": "54083294905-up2v18h7h0lrp0o71jjt2k7pg87a5k5o.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.naveenkumark.addrdbexception",
-            "certificate_hash": "817AD0A57BD7B7F869533EF6B09FA16095D278BA"
+            "certificate_hash": "D9F4AEA1E3C71AEC379FFF93DA94A3150FFE97A3"
           }
         },
         {
-          "client_id": "54083294905-pa87f8hiisudsgrgh6hmmnfq2s8u371k.apps.googleusercontent.com",
+          "client_id": "54083294905-eor8kpuufhagmoh9gpn2ig9sngq29lsg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.naveenkumark.addrdbexception",
-            "certificate_hash": "2FE55C5274FCC62372FA186C26DF81757A44EDB7"
+            "certificate_hash": "AA538F1A5C1517A8E805A3A70F85A1DF2FF485DA"
+          }
+        },
+        {
+          "client_id": "54083294905-tlei64bnkl6g9cbbf40e4254de9ph44r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naveenkumark.addrdbexception",
+            "certificate_hash": "042CF8FD4BF74B00940D3B4877E33EDA4CE70048"
           }
         },
         {

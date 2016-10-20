@@ -1,12 +1,20 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    signingConfigs {
+        config {
+            keyAlias 'test123'
+            keyPassword 'test123'
+            storeFile file('/usr/local/google/home/naveenkumark/KeyStore/Keys.jks')
+            storePassword 'test123'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.example.naveenkumark.addrdbexception"
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -15,22 +23,27 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        variant {
+            debuggable true
+            signingConfig signingConfigs.config
+            minifyEnabled false
         }
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.0.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha6'
-    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
+    compile 'com.android.support:design:25.0.0'
     compile 'com.google.firebase:firebase-database:9.2.1'
     compile 'com.google.firebase:firebase-auth:9.2.1'
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support.test:runner:0.5'
 }
 
 
